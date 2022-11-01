@@ -1,4 +1,4 @@
-import { forwardRef, PureComponent } from "react";
+import { forwardRef } from "react";
 import { context } from "../context";
 
 // ***** Commented out things are implementations for class based comp.    *****

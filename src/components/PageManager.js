@@ -6,6 +6,7 @@ import FormCompoundComponent from "./FormCompoundComponent";
 import { Home } from "./Home";
 import HomePage from "./HomePage";
 import JsonFromPublic from "./JsonFromPublic";
+import ProgressBarOnState from "./ProgressBarOnState";
 import { WrongPath } from "./WrongPath";
 
 export const pages = {
@@ -14,6 +15,7 @@ export const pages = {
   fetch: <FetchData />,
   manifest: <JsonFromPublic />,
   form: <FormCompoundComponent />,
+  progressBarOnState: <ProgressBarOnState />,
 };
 
 export const PageManager = () => {
